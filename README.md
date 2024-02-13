@@ -17,7 +17,7 @@ pip install mysql-connector-python faker
 ## Descripción
 El script genera datos ficticios de chats de soporte y los inserta en la tabla chats de la base de datos. Cada chat tiene los siguientes campos:
 
-```SQL
+```md
 ONN_ID: Identificador de conexión único.
 CHANNEL: Canal de comunicación del chat (WhatsApp, Facebook, correo electrónico, etc.).
 DATE: Fecha del chat.
