@@ -14,3 +14,16 @@ Instala las bibliotecas necesarias ejecutando el siguiente comando:
 ```bash
 pip install mysql-connector-python faker
 ```
+## Descripción
+El script genera datos ficticios de chats de soporte y los inserta en la tabla chats de la base de datos. Cada chat tiene los siguientes campos:
+
+```SQL
+ONN_ID: Identificador de conexión único.
+CHANNEL: Canal de comunicación del chat (WhatsApp, Facebook, correo electrónico, etc.).
+DATE: Fecha del chat.
+AGENT_ID: Identificador único del agente de soporte.
+AGENT_NAME: Nombre del agente de soporte.
+CHAT_DURATION: Duración del chat.
+DESCRIPTION_COD_ACT: Descripción o código de actividad del chat.
+COMMENTS: Comentarios adicionales sobre el chat (opcional).
+```
