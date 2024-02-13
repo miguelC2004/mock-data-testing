@@ -9,7 +9,7 @@ Este script de Python se utiliza para insertar datos de prueba en una base de da
 - Biblioteca mysql-connector-python
 - Biblioteca Faker
 
-Instala las bibliotecas necesarias ejecutando el siguiente comando:
+Puede instalar las bibliotecas necesarias ejecutando el siguiente comando:
 
 ```bash
 pip install mysql-connector-python faker
