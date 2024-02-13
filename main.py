@@ -3,7 +3,6 @@ from faker import Faker
 from datetime import datetime, timedelta
 import random
 
-# Configuración de la conexión a la base de datos
 db_config = {
     'host': 'localhost',
     'user': 'root',
