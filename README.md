@@ -27,3 +27,6 @@ CHAT_DURATION: Duración del chat.
 DESCRIPTION_COD_ACT: Descripción o código de actividad del chat.
 COMMENTS: Comentarios adicionales sobre el chat (opcional).
 ```
+
+## Licencia
+Este proyecto está bajo la [Licencia MIT](https://opensource.org/licenses/MIT).
